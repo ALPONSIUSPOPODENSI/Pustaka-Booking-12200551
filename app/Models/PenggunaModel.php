@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Pengguna extends Model
+class PenggunaModel_12200551 extends Model
 {
     protected $DBGroup              = 'koneksiku';
-    protected $table                = 'pengguna';
+    protected $table                = 'pengguna_12200551';
     protected $primaryKey           = 'id';
     protected $useAutoIncrement     = true;
     protected $returnType           = 'array';
@@ -16,3 +16,4 @@ class Pengguna extends Model
 
    
 }
+

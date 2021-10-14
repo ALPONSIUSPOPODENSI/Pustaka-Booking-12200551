@@ -10,20 +10,20 @@ class PenggunaSeeder extends Seeder
     {
         $data = [
             [ 
-                'nama'            => 'owner',
+                'nama'            => 'popo',
                 'password'        => md5('12345')
             ],
             [
-                'nama'            => 'creator',
-                'password'        => md5('23456')
+                'nama'            => 'admin',
+                'password'        => md5('12345')
             ],
             [
-                'nama'            => 'marketing',
-                'password'        => md5('34567')
+                'nama'            => '12200551',
+                'password'        => md5('Alponsius popo densi')
             ]
 
         ];
-        $p = new Pengguna();
+        $p = new PenggunaModel_12200551();
         $p->insertBatch($data);
 
     }
