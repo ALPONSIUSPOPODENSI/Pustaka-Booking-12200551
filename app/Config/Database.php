@@ -24,7 +24,7 @@ class Database extends Config
      * @var string
      */
     public $defaultGroup = 'koneksiku';
-    
+
     /**
      * The default database connection.
      *
